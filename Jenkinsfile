@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('demo') {
       steps {
-        sh '''echo kalyan
-'''
+       echo 'kalyan'
       }
     }
 
